@@ -1,4 +1,22 @@
-.box{
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.visited-countries{
+    list-style: none;
+}
+
+.visited-flag img{
+    width: 150px;
+    height: 80px;
+    margin: 15px;
+}
+@media screen and (max-width: 576px) {
+  .box {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+
+  }
 }

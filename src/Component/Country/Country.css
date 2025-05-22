@@ -1,20 +1,21 @@
 .country-info {
-    width: 500px;
-  border: 2px solid skyblue;
+    /* width: 500px;  */
+  border: 2px solid tomato;
   border-radius: 20px;
-  padding:  20px;
+  padding:  10px;
   margin: 20px;
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content:center;
+}
+
+.visited{
+background-color: rgba(240, 148, 132, 0.285);
 }
 
 .flag-img{
-    width: 250px;
-    height: 150px;
+    margin-top: 10px;
+    width: 200px;
+    height: 110px;
 }
 span{
-    color: skyblue;
+    color: tomato;
     font-weight: bold;
 }
